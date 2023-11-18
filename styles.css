@@ -1,0 +1,61 @@
+.pintaIp{
+  margin: 1px;
+  width: 1.5em;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(245, 248, 245);
+}
+
+#mapa{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+}
+
+#mapa a{
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.FormArticulos{
+  border: solid blue 1px;
+  width: 100%;
+  display: flex;
+}
+
+#formIngreso{
+  width: 20%;
+  padding: 0.5em;
+  border: solid red 1px;  
+ }
+
+ #formIngreso input{
+  margin:0.2em}
+
+
+.contenedor{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+  justify-content: center;
+  padding: 10px;
+  border: solid orangered 1px;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}

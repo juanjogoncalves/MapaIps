@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapa ip</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div>
+  
+  <div id="mapa">
+      
+  </div>
+
+  <div class="FormArticulos">
+     
+    <form id="formIngreso">
+      
+      <select name="dispositivo" id="dispositivo">
+        <option value="pc">pc</option>
+        <option value="router">router</option>
+        <option value="impresora">impresora</option>
+        <option value="remoto">remoto</option>
+        <option value="servidor">servidor</option>
+        <option value="reservadas">reservadas</option>
+        <option value="bloqueadas">Bloqueadas</option>
+      </select>
+      
+      <br>
+      
+      <label>Ip:</label>
+      <input type="text" name="ip" id="ip"><br>
+      
+      <label>Servicio:</label>
+      <input type="text" name="servicio" id="servicio"><br>
+  
+      <button type="submit" style="margin-top: 5px;">Ingresar</button>
+      
+    </form>
+   
+
+   
+    <div class="contenedor">
+    
+        <table>
+          
+          <thead>
+              <tr>
+                  <th>Servicio</th>
+                  <th>Dispositivo</th>
+                  <th>Ip</th>
+              </tr>
+          </thead>
+          
+          <tbody id="DataPaint">
+              
+          </tbody>
+       
+        </table>
+      
+    </div> 
+    
+  </div>
+   
+</div>
+  
+  
+  
+  <template id="templ">
+    <div class="pintaIp">
+      <a href=""></a>
+    </div>
+  </template>
+
+  
+  
+  <template id="tplPaintData">  
+      <tr>
+        <td id="PDataDispo">1</td>
+        <td id="PDataIp">Usuario 1</td>
+        <td id="PDataServ">usuario1@example.com</td>
+        <!-- Agrega más celdas de datos según tu estructura de base de datos -->
+      </tr>
+  </template>
+
+  
+ 
+  <script src="script.js"></script>
+</body>
+</html>
